@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-light{
+    @apply hover:bg-gray-100 text-gray-500;
+}
